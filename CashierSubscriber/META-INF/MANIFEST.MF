@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CashierSubscriber
+Bundle-SymbolicName: CashierSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: cashiersubscriber.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: CashierSubscriber
+Import-Package: beverageemployeepublisher,
+ beveragepublisher,
+ billitempublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: cashiersubscriber

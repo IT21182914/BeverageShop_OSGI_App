@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: BeverageShopAdminSubscriber
+Bundle-SymbolicName: BeverageShopAdminSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: beverageshopadminsubscriber.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: beverageShopAdminSubscriber
+Import-Package: beverageemployeepublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: beverageshopadminsubscriber

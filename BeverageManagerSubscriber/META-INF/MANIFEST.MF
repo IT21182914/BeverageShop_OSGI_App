@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: BeverageManagerSubscriber
+Bundle-SymbolicName: BeverageManagerSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: beveragemanagersubscriber.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: beverageManagerSubscriber
+Import-Package: org.osgi.framework;version="1.3.0",
+ beveragepublisher
+Bundle-ActivationPolicy: lazy
+Export-Package: beveragemanagersubscriber

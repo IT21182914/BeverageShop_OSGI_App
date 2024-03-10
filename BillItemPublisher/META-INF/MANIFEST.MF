@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: BillItemPublisher
+Bundle-SymbolicName: BillItemPublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: billitempublisher.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: BillItemPublisher
+Import-Package: beverageemployeepublisher,
+ beveragepublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: billitempublisher
